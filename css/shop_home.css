@@ -1,0 +1,93 @@
+.banner .bgImg{
+  height: 629px;
+  position: relative;
+  margin-top: 150px;
+}
+.banner li:nth-child(2){
+  display: none;
+}
+.banner .title{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: 600;
+}
+.tab{
+  position: absolute;
+  top: 850px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 700px;
+  z-index: 10;
+}
+.tab button{
+  border: none; background-color: transparent;
+  font-family: "Public Sans";
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+  padding: 6px 0;
+  outline: none;
+}
+#contain .menu{
+  position: relative;
+  width: 1276px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 300px;
+  margin-top: 180px;
+}
+#contain .contents{
+  margin-bottom: 20px;
+}
+#contain .home{
+  width: 318px;
+}
+#contain .c1{
+  border: 0; padding: 0;
+}
+#contain .home > img{
+  margin-bottom: 10px;
+  box-shadow: 7px 5px 12px rgba(0,0,0,0.4);
+}
+#contain .menu h2{
+  font-family: "Artisan12";
+  font-size: 30px;
+  font-weight: normal;
+}
+#contain .border{
+  width: 226px;
+}
+#contain .menu .one{
+  letter-spacing: -2px;
+}
+#contain .menu p{
+  font-family: "Artisan12";
+  font-size: 18px;
+  margin: 14px 0px;
+}
+#contain > div{
+  display: none;
+}
+#contain .candle{
+  display: block;
+}
+.tab button{
+  position: relative;
+}
+.tab button::before{
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #555;
+  border-radius: 30px;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 0; left: 0;
+}
+.tab button:hover::before{
+  width: 100%;
+  background-color: #555;
+}

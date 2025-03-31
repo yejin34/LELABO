@@ -1,0 +1,135 @@
+#detail{
+  margin-top: 150px;
+  position: relative;
+  /* border-top: 1px solid #999; */
+  padding-top: 175px;
+  /* margin-bottom: 200px; */
+}
+#detail .thumbs{
+  display: flex;
+  flex-direction: column;
+}
+#detail .largeImg{
+  width: 620px;
+  height: 620px;
+}
+#detail .contain{
+  width: 1180px;
+  display: flex;
+  justify-content: space-between;
+}
+#detail .box{
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+#detail .thumbs img{
+  opacity: 0.6;
+  display: block;
+  margin-bottom: 40px;
+}
+#detail .thumbs img:hover,
+#detail .on img{
+  opacity: 1;
+}
+#detail .wrap img{
+  box-shadow: 7px 7px 10px rgba(0,0,0,0.4);
+}
+#detail .txtBox h1{
+  font-family: "Artisan12";
+  font-size: 42px;
+  font-weight: normal;
+  margin: 20px 0px 43px 0px;
+}
+#detail .txtBox h1 > span{
+  font-size: 20px;
+  font-family: "Artisan12";
+}
+#detail .t1{
+  letter-spacing: -8px;
+}
+#detail .txtBox .option{
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#detail .txtBox select{
+  width: 332px;
+  height: 60px;
+  font-size: 16px;
+  font-family: "Public Sans";
+  color: #666;
+  padding: 15px;
+  border: 2px solid #666;
+}
+#detail .txtBox textarea{
+  width: 298px;
+  height: 26px;
+  font-size: 16px;
+  font-family: "Public Sans";
+  color: #666;
+  padding: 15px;
+  border: 2px solid #666;
+  resize: none;
+  outline: none;
+}
+#detail .txtBox .price{
+  font-family: "Artisan12";
+  font-size: 24px;
+  margin: 92px 0px 62px 174px;
+  color: #444;
+}
+#detail .btn{
+  width: 328px;
+  display: flex;
+  justify-content: space-between;
+}
+#detail button{
+  width: 153px;
+  height: 66px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  box-shadow: 2px 2px 7px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+#detail button:nth-child(1){
+  background-color: #555;
+  color: #fff;
+}
+#detail button:nth-child(1):hover{
+  background-color: #fff;
+  color: #555;
+  border: 2px solid #555;
+}
+#detail button:nth-child(2):hover{
+  background-color: #555;
+  color: #fff;
+}
+#detail button:nth-child(2){
+  background-color: #fff;
+  color: #555;
+  border: 2px solid #555;
+}
+#detail #related{
+  display: flex;
+  margin: 50px 0px 0px 180px;
+}
+#detail .contents{
+  width: 180px;
+  font-family: "Artisan12";
+  margin-right: 40px;
+}
+#detail .contents h2{
+  font-size: 24px;
+  font-weight: normal;
+}
+#detail .contents p{
+  font-size: 16px;
+  margin: 13px 0px;
+}
+
+.explain{
+  margin-top: 200px;
+}

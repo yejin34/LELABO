@@ -1,0 +1,62 @@
+#store{
+  width: 100%;
+  margin-top: 280px;
+  color: #333;
+  font-family: "Noto Sans KR";
+}
+#store h1{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  text-align: center;
+  padding-top: 120px;
+}
+#store select{
+  width: 338px;
+  height: 50px;
+  border: 1px solid #666;
+  font-size: 16px;
+  color: #333;
+  outline: 0;
+}
+#store .storeImg{
+  width: 803px;
+  height: 532px;
+  /* overflow: hidden; */
+  margin-bottom: 150px;
+  position: relative;
+}
+#store .storeImg img{
+  position: absolute;
+}
+#store .content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#store .textBox{
+  width: 1920px;
+  height: 815px;
+  background-color: rgba(168,132,99,0.1);
+  margin-bottom: 200px;
+}
+#store h2{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 100px;
+}
+#store .address{
+  width: 1028px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 60px;
+}
+#store .gnb{
+  width: 310px;
+  margin-bottom: 70px;
+}
