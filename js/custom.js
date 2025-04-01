@@ -15,14 +15,10 @@ $(function(){
   var i = $(this).index();
   $(".sub_menu").eq(i).slideDown();
 });
-// $("#header .menu > li").mouseleave(function(){
-//   var i = $(this).index();
-//   $(".sub_menu").eq(i).slideUp();
-// });
-// $("#header .menu > li").mouseleave(function(){
-//   var i = $(this).index();
-//   $(".sub_menu").eq(i).stop().slideUp();
-// });
+$("#header .sub_menu").mouseleave(function(){
+  var i = $(this).index();
+  $(".sub_menu").eq(i).slideUp();
+});
 /////////////////////////////////////////////////
 
 //best메뉴 슬라이드
