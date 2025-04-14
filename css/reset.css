@@ -1,0 +1,17 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none; user-select: none;}
+a{text-decoration: none; color: inherit; user-select: none;}
+span{user-select: none!important;}
+body{
+  font-family: "Public Sans";
+  color: #333;
+  font-size: 34px;
+}
+.wrap{
+  width: 1180px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.border{
+  border-top: 1px solid #666;
+}

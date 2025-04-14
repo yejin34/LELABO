@@ -1,0 +1,86 @@
+#aboutus .bg{
+  width: 100%;
+  height: 629px;
+  margin-top: 150px;
+  margin-bottom: 230px;
+}
+#aboutus h1{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 54px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+#aboutus .contain{
+  width: 1180px;
+  position: relative;
+}
+#aboutus .txt{
+  width: 540px;
+  font-family: "나눔 고딕";
+}
+#aboutus .txt h2{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+}
+#aboutus .txt p:nth-child(2){
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+#aboutus .txt p:nth-child(3),
+#aboutus .txt p:nth-child(4),
+#aboutus .txt p:nth-child(5){
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #666;
+}
+#aboutus .box{
+  margin-bottom: 220px;
+}
+#aboutus .b1,
+#aboutus .b3,
+#aboutus .b5{
+  width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#aboutus .b2,
+#aboutus .b4{
+  width: 1180px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+#aboutus .b5{
+  margin-bottom: 350px;
+}
+#aboutus .b1 h2,
+#aboutus .b3 h2{
+  width: 150px;
+  background-color: #fefacf;
+  margin-left: 194px;
+}
+#aboutus .b2 h2{
+  width: 208px;
+  background-color: #f8d7cb;
+  margin-left: 170px;
+}
+#aboutus .b4 h2{
+  width: 265px;
+  background-color: #f8d7cb;
+  margin-left: 140px;
+}
+#aboutus .b5 h2{
+  width: 285px;
+  background-color: #fefacf;
+  margin-left: 128px;
+}

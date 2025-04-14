@@ -1,0 +1,53 @@
+#grooming .bg{
+  width: 100%;
+  height: 629px;
+  margin-top: 150px;
+  margin-bottom: 180px;
+}
+#grooming h1{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 54px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+#grooming .menu{
+  margin-bottom: 300px;
+}
+#grooming .menu .box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+#grooming .menu .box2{
+  width: 864px;
+  display: flex;
+  justify-content: space-between;
+}
+#grooming .contents{
+  width: 226px;
+  height: 440px;
+}
+#grooming .c1{
+  border: 0; padding: 0;
+}
+#grooming .grooming > img{
+  margin-bottom: 10px;
+  box-shadow: 7px 5px 12px rgba(0,0,0,0.4);
+}
+#grooming .menu h2{
+  font-family: "Artisan12";
+  font-size: 30px;
+  font-weight: normal;
+}
+#grooming .menu .b1{
+  margin-top: 13px;
+}
+#grooming .menu p{
+  font-family: "Artisan12";
+  font-size: 18px;
+  margin: 14px 0px;
+}
