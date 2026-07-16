@@ -9,8 +9,7 @@
 }
 .banner .title{
   position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
+  top: 420px; left: 760px;
   color: #fff;
   font-weight: 600;
 }
