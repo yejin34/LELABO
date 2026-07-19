@@ -30,3 +30,9 @@ footer .menu > li{
   color: #999;
   margin-bottom: 25px;
 }
+
+@media screen and (max-width: 1180px){
+  footer > .txt{
+    left: 740px;
+  }
+}
