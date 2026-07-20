@@ -31,7 +31,7 @@ footer .menu > li{
   margin-bottom: 25px;
 }
 
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 1680px){
   footer > .txt{
     left: 740px;
   }

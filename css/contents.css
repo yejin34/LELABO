@@ -430,8 +430,7 @@ b{
   color: #555;
 }
 
-
-@media screen and (max-width: 1180px){
+@media screen and (max-width: 1680px){
   .tab{
     left: 900px;
   }
